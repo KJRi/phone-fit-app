@@ -118,15 +118,15 @@ class Detail extends React.PureComponent<Props, State> {
             onClick={this.handleClick}
             style={{ height: '100%', borderRight: 0 }}
         >
-            <Menu.Item key='送爱人'>送爱人</Menu.Item>
-            <Menu.Item key='送长辈'>送长辈</Menu.Item>
-            <Menu.Item key='送兄弟'>送兄弟</Menu.Item>
-            <Menu.Item key='送闺蜜'>送闺蜜</Menu.Item>
-            <Menu.Item key='送领导'>送领导</Menu.Item>
-            <Menu.Item key='送小孩'>送小孩</Menu.Item>
+            <Menu.Item key='手机壳'>手机壳</Menu.Item>
+            <Menu.Item key='数据线'>数据线</Menu.Item>
+            <Menu.Item key='充电宝'>充电宝</Menu.Item>
+            <Menu.Item key='钢化膜'>钢化膜</Menu.Item>
+            <Menu.Item key='耳机'>耳机</Menu.Item>
+            <Menu.Item key='其他'>其他</Menu.Item>
           </Menu>
         </Sider>
-        <div>
+        <div style={{ width: '100%' }}>
           <Search
             placeholder='请输入您想搜索的礼物'
             onSearch={this.searchPst}

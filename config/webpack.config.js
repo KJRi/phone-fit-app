@@ -65,7 +65,7 @@ config.plugins = [
   new HtmlWebpackPlugin({
     template : project.paths.client('index.html'),
     hash     : false,
-    gift  : project.paths.public('gift.ico'),
+    phone  : project.paths.public('phone.ico'),
     filename : 'index.html',
     inject   : 'body',
     minify   : {
