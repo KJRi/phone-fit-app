@@ -6,7 +6,6 @@ module.exports = (app) => {
   app.use('/car', require('./cars'))
   app.use('/order', require('./orders'))
   app.use('/fav', require('./favs'))
-  app.use('/birth', require('./births'))
   app.use('/address', require('./addresses'))
   app.use('/judge', require('./judges'))
 }
